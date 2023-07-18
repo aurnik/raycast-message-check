@@ -5,8 +5,8 @@ export interface Message {
   text: string;
 }
 
+export type UnreadEmailQuery = { unreadCount: number };
+
 export interface Preferences {
   lookBackDays?: string;
 }
-
-export type SearchType = "all" | "code";

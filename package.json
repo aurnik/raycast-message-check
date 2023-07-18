@@ -7,7 +7,8 @@
   "author": "yuercl",
   "contributors": [
     "thomas",
-    "arronhunt"
+    "arronhunt",
+    "aurnik"
   ],
   "categories": [
     "Productivity"
@@ -16,10 +17,26 @@
   "commands": [
     {
       "name": "index",
-      "title": "View 2FA Codes",
+      "title": "Check messages",
       "subtitle": "Messages",
       "description": "View messages and two factor authentication codes",
       "mode": "view"
+    },
+    {
+      "name": "messageCount",
+      "title": "Message Count",
+      "subtitle": "Messages",
+      "description": "See your messages at a glance",
+      "mode": "menu-bar",
+      "interval": "10m"
+    },
+    {
+      "name": "emailCount",
+      "title": "Email Count",
+      "subtitle": "Emails",
+      "description": "See your messages at a glance",
+      "mode": "menu-bar",
+      "interval": "10m"
     }
   ],
   "preferences": [
@@ -34,8 +51,7 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.48.8",
-    "@raycast/utils": "^1.4.9",
-    "@use-it/interval": "^1.0.0"
+    "@raycast/utils": "^1.4.9"
   },
   "devDependencies": {
     "@types/node": "16.10.3",
