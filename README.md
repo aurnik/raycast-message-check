@@ -1,7 +1,3 @@
-# iMessage 2FA
+Forked from iMessage 2FA extension
 
-iMessage Two Factor Authentication Code
-
-![](https://raw.githubusercontent.com/yuercl/extensions/main/extensions/imessage-2fa/metadata/preview.png)
-
-![](https://raw.githubusercontent.com/yuercl/extensions/main/extensions/imessage-2fa/metadata/preview_detail.png)
+Shows notification in menubar for new messages and emails.
